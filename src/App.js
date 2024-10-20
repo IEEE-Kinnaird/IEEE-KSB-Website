@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Events from './components/Events';
-import WIEChapter from './components/WieChapter';
+import WieChapter from './components/WieChapter';
 
 function App() {
   console.log('App is rendering'); // Debugging log
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/wie-chapter" element={<WIEChapter />} />
+        <Route path="/wie-chapter" element={<WieChapter />} />
       </Routes>
     </Router>
   );
