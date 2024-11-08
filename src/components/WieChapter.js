@@ -7,6 +7,7 @@ import img3 from "./Logos/aleeza.jpeg"; // Ensure this image exists
 import img4 from "./Logos/Rahemeen.jpeg"; // Ensure this image exists
 import "./milestones.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const WieChapter = () => {
   return (
@@ -124,7 +125,11 @@ const WieChapter = () => {
           </div>
         </div>
       </div>
+      <div>
+      <Footer/>
     </div>
+    </div>
+    
   );
 };
 
