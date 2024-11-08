@@ -1,0 +1,117 @@
+.hero {
+    width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
+      url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMG1hcmJsZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .hero1 {
+    width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(rgba(75, 6, 60, 0.5), rgba(70, 7, 59, 0.5)),
+      url("https://img.freepik.com/free-photo/liquid-purple-art-painting-abstract-colorful-background-with-color-splash-paints-modern-art_1258-97771.jpg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 20px; /* Added padding for small screens */
+    text-align: center;
+  }
+  .herotext {
+    text-align: center;
+    max-width: 800px;
+  }
+  .wie {
+    font-size: 100px;
+    text-align: center;
+    text-shadow: -7px -7px 0 black, 7px -5px 0 black, -5px 5px 0 black,
+      5px 5px 0 black;
+    margin: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .wie {
+      font-size: 80px; /* Reduce font size slightly for large screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .wie {
+      font-size: 60px; /* Reduce font size further on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero1 {
+      padding: 15px; /* Adjust padding for better centering */
+      min-height: 60vh;
+    }
+  
+    .wie {
+      font-size: 50px;
+      text-shadow: -5px -5px 0 black, 5px -3px 0 black, -3px 3px 0 black,
+        3px 3px 0 black;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero1 {
+      min-height: 50vh;
+      padding: 10px;
+    }
+  
+    .wie {
+      font-size: 36px; /* Smaller font size for mobile screens */
+      text-shadow: -4px -4px 0 black, 4px -2px 0 black, -2px 2px 0 black,
+        2px 2px 0 black;
+    }
+  }
+  h1 {
+    font-size: 200px;
+    text-align: center;
+    text-shadow: -7px -7px 0 black, 7px -5px 0 black, -5px 5px 0 black,
+      5px 5px 0 black;
+    margin: 0;
+  }
+  
+  h3 {
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 150px;
+      text-shadow: -4px -4px 0 black, 4px -3px 0 black, -3px 3px 0 black,
+        3px 3px 0 black;
+    }
+  
+    h3 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 100px;
+      text-shadow: -3px -3px 0 black, 3px -2px 0 black, -2px 2px 0 black,
+        2px 2px 0 black;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  }
+  
