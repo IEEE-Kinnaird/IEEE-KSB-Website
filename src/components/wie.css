@@ -1,0 +1,154 @@
+.container12 {
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    flex-direction: row; /* Default to side-by-side layout */
+    margin-left: 10%;
+    margin-right: 20px;
+    align-self: center;
+  }
+  
+  .left-column {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; /* Ensure no margin */
+  }
+  
+  .left-column img {
+    width: 70%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .right-column {
+    flex: 1;
+    margin: 0; /* Ensure no margin */
+  }
+  
+  .right-column h3 {
+    color: #5e2689;
+    font-size: 30px;
+    margin: 0 0 20px;
+    text-align: start;
+    margin-top: 30px;
+    line-height: 30%;
+    font-style: normal;
+  }
+  
+  .right-column p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .container12 {
+      max-width: 90%; /* Adjust container width for smaller screens */
+    }
+  
+    .right-column h1 {
+      font-size: 1.8em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container12 {
+      flex-direction: column; /* Stack columns on top of each other */
+      padding: 15px;
+    }
+  
+    .right-column h1 {
+      font-size: 1.6em;
+    }
+  
+    .right-column p {
+      font-size: 0.95em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container12 {
+      padding: 10px;
+      box-shadow: none;
+    }
+  
+    .right-column h1 {
+      font-size: 1.4em;
+      text-align: center;
+    }
+  
+    .right-column p {
+      font-size: 0.9em;
+      text-align: justify;
+    }
+  
+    .left-column img {
+      width: 100%;
+    }
+  }
+  
+  /* Limit paragraph to 6 lines */
+  .text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    max-height: 9em; /* Limit to 6 lines based on line-height */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .text h2 {
+      font-size: 22px;
+    }
+  
+    .text p {
+      font-size: 0.95rem;
+    }
+  
+    .image {
+      max-width: 700px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text {
+      max-width: 90%; /* Increase width for readability on smaller screens */
+    }
+  
+    .text h2 {
+      font-size: 20px;
+    }
+  
+    .text p {
+      font-size: 0.9rem;
+    }
+  
+    .image {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text h2 {
+      font-size: 18px;
+    }
+  
+    .text p {
+      font-size: 0.85rem;
+    }
+  
+    .image {
+      border-radius: 5px;
+    }
+  }
+  
